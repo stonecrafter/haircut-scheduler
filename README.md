@@ -5,16 +5,18 @@ I submitted this for an assignment a few years ago.
 I still like Python, and still identify with the general way that I approached this exercise, so uploading it for record-keeping's sake.
 
 
-#### Files:
+#### Files
 `scheduler.py` - main file and class, contains methods which invoke model classes and methods. Contains the command line interface.
+
 `dailyschedule.py` - model (DailySchedule class) for one day's schedule. Contains a list of Slots.
+
 `slot.py` - model (Slot class) for one 15-minute appointment slot.
 
-#### How to run:
+#### How to run
 `python3 scheduler.py`
 (No additional parameters in the command. Follow resulting prompts.)
 
-## Test Console Output:
+## Test Console Output
 
 ```
 kirien@stardust-tapestry~/haircut-scheduler$ python3 scheduler.py
